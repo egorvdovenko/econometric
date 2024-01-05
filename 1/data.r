@@ -147,7 +147,7 @@ curve(coef(nls_hyper_res)[1] + coef(nls_hyper_res)[2] / x, add = TRUE, col = "re
 
 # Проведем анализ остатков
 
-#  Построим график остатков (5)
+# Построим график остатков (5)
 
 plot(nls_hyper_res$m$resid())
 abline(h = 0, col = "red")
